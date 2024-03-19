@@ -22,9 +22,9 @@ The application is desinged to be minimal api. It has a single endpoint that ret
 
 ## Improvements
 Following are the improvements that can be made to the application:
-	- Add pagination to the API (by adding skip and take parameters to the request)
-	- Add caching to the API to reduce the number of requests to HackerNewsAPI
-	- Add authentication to the API
-	- Add rate limiting to the API
-	- Add Unit Tests to the application.
+- Add pagination to the API (by adding skip and take parameters to the request)
+- Add caching to the API to reduce the number of requests to HackerNewsAPI
+- Add authentication to the API
+- Add rate limiting to the API
+- Add Unit Tests to the application.
 
