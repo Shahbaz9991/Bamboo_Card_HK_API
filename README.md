@@ -2,16 +2,16 @@
 ## Running the application
 To run this application, you will need to have .NET Core 8.0 installed. You can download it from [here](https://dotnet.microsoft.com/download/dotnet-core/8.0).
 Once you have .NET Core 8.0 installed, you can run the application by navigating to the root directory of the project and running the following command:
-''' 
-dotnet run 
-'''
+```bash
+dotnet run
+```
 This command will build and run your application.
 
 ## API Endpoints
 The application has a single endpoint that returns the top 15 stories from HackerNewsAPI. The endpoint is as follows:
-'''
+```
 GET /stories?limit=15
-'''
+```
 The valid values for limit query parameter is (0-15). More details on assumptions can be found below.
 
 ## Assumptions
