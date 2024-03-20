@@ -12,6 +12,10 @@ app.MapGet("stories", async (IHackerNewsService hackerNewsService, int limit=0) 
 {
 	try
 	{
+		if(limit < 0)
+		{
+			return Results.BadRequest("Limit must be a positive number");
+		}
 		if (limit > 15)
 		{
 			return Results.BadRequest("You can only request up to 15 stories at a time");
